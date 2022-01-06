@@ -1,0 +1,29 @@
+vamos acessar as páginas do nosso projeto por meio de  rotas
+as views sao as partes visuais
+nas views temos os templates onde  ha a  estruturação das paginas
+por meio do html o html
+template == blade
+
+php artisan serve == estartar o servidor
+http://localhost:8000/ == porta do  servidor  laravel
+
+
+o que é o Blade?
+  == Bade é a template engine do laravel
+  == deixa as views dinâmicas
+  == insere tags de HTML e também dados que são fornecidos pelo banco de dados
+  == as views sao responsabilidade do blade
+  ==Para quem nunca utilizou um sistema de templates deste tipo, 
+  ele basicamente é uma maneira diferente de escrever suas views. 
+  Em vez de utilizar tags PHP diretamente no seu HTML, 
+  você vai utilizar outra sintaxe com chaves e arrobas.
+
+  == pasta public serrve para adicionar arquivos estaticos com imagem 
+  css e javascript
+
+
+  layouts com blade
+
+  == permite o reaproveitamento de código
+  == podemos ter o mesmo footer e o header em  todoo o projeto
+  == dá para criar seções 
