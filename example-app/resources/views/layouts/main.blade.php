@@ -16,7 +16,33 @@
         <script src="/javascript/script.js"></script>
     </head>
     <body class="antialiased">
-        @yield('content');   <!-- //o conteudo vai aqui -->
+       <header>
+      
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse" id="navbar">
+                  <a href="/" class="navbar-brand">
+                      <img src="/img/hdcevents_logo.svg" alt="HDC events" srcset="">
+                  </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="/" class = "nav-link">EVENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class = "nav-link">CREATE EVENTS</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="/" class = "nav-link">SIGN IN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class = "nav-link">SIGN UP</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+       </header> 
+        @yield('content');   <!-- //o the contend will be here -->
        <footer>
             <p>Hdc Events &copy; 2021</p>
 

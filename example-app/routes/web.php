@@ -20,5 +20,15 @@ Route::get('/', function () {
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    $search  = request('search');  //adding  an variable to keep the search of user
+
+    return view('contact',['search' =>  $search]);
+});
+
+Route::get('/product/{id}', function ($id) {  //with {} this make mandatory to pass the parameters
+    
+      
+      
+
+      return view('product',['id'=>$id]);
 });

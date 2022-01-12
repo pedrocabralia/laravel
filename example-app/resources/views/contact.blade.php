@@ -1,1 +1,2 @@
-<h1>testando as viewa e as rotas</h1>
+<h1>testing the views and the routes</h1>
+<p>the search of user is {{$search}}</p>

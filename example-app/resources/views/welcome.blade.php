@@ -1,5 +1,6 @@
-@extends('layouts.main')    <!-- puxando o layouts-->
+@extends('layouts.main')    <!-- pulling the layouts-->
 @section('title','HDC Events')
+
 @section('content')
 @endsection
 

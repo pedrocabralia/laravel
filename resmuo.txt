@@ -1,4 +1,4 @@
-vamos acessar as páginas do nosso projeto por meio de  rotas
+We will to access the our projects  por meio de  rotas
 as views sao as partes visuais
 nas views temos os templates onde  ha a  estruturação das paginas
 por meio do html o html
@@ -22,8 +22,18 @@ o que é o Blade?
   css e javascript
 
 
-  layouts com blade
+  layouts with blade
 
-  == permite o reaproveitamento de código
-  == podemos ter o mesmo footer e o header em  todoo o projeto
+  == It allows o reuse of the code
+  == We can have the same  footer and the  header in all projects
   == dá para criar seções 
+
+
+  
+
+Controllers
+
+== They condense the major part of the logical
+== They have the paper of the to send and stay responses of Databases 
+==  I can create a controller by the artisan
+==  (php artisan make:controller  EventController) with this code I will created a controller
