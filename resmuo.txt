@@ -37,3 +37,12 @@ Controllers
 == They have the paper of the to send and stay responses of Databases 
 ==  I can create a controller by the artisan
 ==  (php artisan make:controller  EventController) with this code I will created a controller
+
+== conecting to database: php artisan migrate //to tests  some tables  and create them
+
+== the configuration of  databases are in .env
+
+== The migrates function as database versioning;
+== add and remove the tables
+
+== command to create  migrate: php artisan make:migration

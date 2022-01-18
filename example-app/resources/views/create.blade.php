@@ -1,7 +1,7 @@
 @extends('layouts.main')    <!-- pulling the  layouts-->
-@section('title','PRODUCTS')
+@section('title','CREATE EVENTS')
 @section('content')
 
-    <p> Showing the id of the product {{$id}}</p>
+    <h1>CREATE YOUR EVENT</h1>
 
 @endsection
