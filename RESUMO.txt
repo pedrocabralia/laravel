@@ -45,4 +45,26 @@ Controllers
 == The migrates function as database versioning;
 == add and remove the tables
 
-== command to create  migrate: php artisan make:migration
+== command to create  migrate: php artisan make:migration "nome da migration"
+
+logo após criada ela tem que ser inicializada para  aparecer no banco de dados
+
+php artisan migrate:status "eu vejo o estado da minha migrate"
+para criar a tabela de fato eu rodo php artisan migrate
+Após criar uma  coluna para a tabela eu só rodo php artisan migrate:fresh (esse comando eu apa
+go todos os dados do banco de dados)
+quando precisamos criar uma colula para  a tabela temos que criar uma migration
+o comando rollback é utilizado para retornar uma migration
+para retornar todas as migrations utilizamos  o reset
+para  voltar e rodar todas as migrates utilizamos o refresh
+
+ex:
+   dada a tabela existente:
+            $table->id();
+            $table->timestamps();
+            $table->string('name');
+  e eu queira adicionar um campo 'descrição eu rodo o seguinte comando':
+  php artisan make:migration add_category_to_products_table(assim criando 
+  uma nova migration)
+
+  adiciono uma nova coluna e entao rodo o php artisan migrate
