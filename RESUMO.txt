@@ -68,3 +68,9 @@ ex:
   uma nova migration)
 
   adiciono uma nova coluna e entao rodo o php artisan migrate
+
+  eloquente : é a orm do laravel(abstrai as query e é utilizado php) 
+  cada tabela tem  um model que é responsvel pela interação entre as requisições
+  do banco
+ 
+  para criar um model: php artisan make:model Event -> o nome padrão
