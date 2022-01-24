@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 use App\Http\Controllers\EventController;  //import the controller
 Route::get('/',[EventController::class,'index']);
+Route::post('/events',[EventController::class,'store']);
 
 Route::get('/create',[EventController::class,'create']);
