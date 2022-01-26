@@ -74,3 +74,8 @@ ex:
   do banco
  
   para criar um model: php artisan make:model Event -> o nome padrão
+  
+  flash messages = podemos adicionar mensagens por session
+
+   return redirect('/')->with('msg','event created successfully');
+   

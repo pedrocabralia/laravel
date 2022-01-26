@@ -31,6 +31,15 @@
     background-color: #C28008;
     border-color: #C28008;
   }
+  .msg{
+
+      width: 100%;
+      background-color: aquamarine;
+      border: 1px solid #CCC;
+      margin-bottom: 0;
+      padding: 10px;
+      text-align: center;
+}
   
   /* navbar */
   #navbar img {

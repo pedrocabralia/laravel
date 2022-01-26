@@ -42,7 +42,21 @@
         </nav>
         
        </header> 
-        @yield('content');   <!-- //o the contend will be here -->
+       
+
+        <main>
+            <div class="container-fluid">
+                <div class = "row">
+                  @if(session('msg'))
+                    <p class="msg">{{session('msg')}}</p>
+                  @endif
+                  @yield('content');   <!-- //o the contend will be here -->
+                </div>
+
+            </div>
+           
+        </main>
+
        <footer>
             <p>Hdc Events &copy; 2021</p>
 
