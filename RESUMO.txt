@@ -1,3 +1,23 @@
+	CRIANDO PROJETO
+
+composer create-project laravel/laravel example-app
+
+cd example-app
+
+php artisan serve
+
+composer global require laravel/installer
+
+laravel new example-app
+
+cd example-app
+
+php artisan serve
+
+
+
+
+
 We will to access the our projects  por meio de  rotas
 as views sao as partes visuais
 nas views temos os templates onde  ha a  estruturação das paginas
@@ -79,3 +99,8 @@ ex:
 
    return redirect('/')->with('msg','event created successfully');
    
+
+enctype = "multipart/form-data" -- permitindo que o formulário
+envie dados
+
+pare 5:43 aula sobre imagem

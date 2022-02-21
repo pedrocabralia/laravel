@@ -5,8 +5,12 @@
    
     <div id="event-create-container" class="col-md-6 offeset-md-3">
         <h1>CREATE YOUR EVENT</h1>
-        <form action="/events" method="post">
+        <form action="/events" method="post" enctype = "multipart/form-data">
          @csrf
+         <div class="form-group">
+                <label for="image"> Upload your image: </label>
+                <input type="file" name="image" id="image" class = "from-control-file">
+            </div> 
             <div class="form-group">
                 <label for="title"> Event: </label>
                 <input type="text" class="form-control" id="title" name="title" placeholder = "Name of event">
